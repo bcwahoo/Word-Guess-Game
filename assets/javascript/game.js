@@ -1,1 +1,1 @@
-var library = ["touchdown", "interception", "fumble", "sack",];
+var library = ["touchdown", "interception", "fumble", "sack", "referee", "safety", "endzone", ];
