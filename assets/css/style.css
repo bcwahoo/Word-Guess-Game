@@ -13,16 +13,15 @@ body {
 
 .top-container {
     width: 80%;
-    margin: 0 10%;
+    margin: 10% 10%;
     padding: 25px;
     border: 2px solid #dddddd;
     background-color: aliceblue;
     flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
 }
 
-.magic-word {
+#magic-word, #win-counter, #loss-counter, #guess-left, #bad-word {
   font-family: myFirstFont;
   color: #FFFFFF;
-  -webkit-text-stroke: 1px #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 38px rgba(250, 255, 0, 0.54);
 }

@@ -14,30 +14,57 @@
 </head>
 
 <body>
-    <h1 id="intro">Time to Guess the Word</h1>
+
 
     <div class="top-container">
+        <h1 id="intro" class="text-center">Time to Guess the Word</h1>
+
         <div class="row">
             <div class="col-12">
                 <div class="jumbotron bg-dark">
                     <div class="container">
-                        <h1 class="display-1 text-center magic-word">FOOTBALL</h1>
+                        <h1 class="display-1 text-center" id="magic-word">FOOTBALL</h1>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center">
+
+        <div class="row justify-content-center text-center">
             <div class="col">
-                <h2 class="text-center">Down</h2>
+                <h2>DOWN</h2>
+                <div class="bg-dark container">
+                    <h2 id="guess-left">#</h2>
+                </div>
+
             </div>
             <div class="col">
-               <h2 class="text-center">Wins & Losses</h2> 
+                <h2>WINS</h2>
+                <div class="bg-dark">
+                    <div class="container">
+                        <h2 id="win-counter">0</h2>
+                    </div>
+                </div>
             </div>
             <div class="col">
-                <h2 class="text-center bad-word">Used Letters</h2>
+                <h2>LOSSES</h2>
+                <div class="bg-dark">
+                    <div class="container">
+                        <h2 id="loss-counter">0</h2>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <h2>LETTERS USED</h2>
+                <div class="bg-dark">
+                    <div class="container">
+                        <h2 id="bad-word"> - </h2>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+        <!------------END OF TOP CONTAINER -->
+    </div> 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
